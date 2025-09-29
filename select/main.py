@@ -59,7 +59,7 @@ def show_camera_output():
         cv2.imshow('Camera Output', frame)
 
         # 33ms 대기 (키 입력 대기)
-        key = cv2.waitKey(1000)
+        key = cv2.waitKey(33)
 
         # 'q' 키를 누르면 종료
         if key == ord('q'):
